@@ -28,5 +28,9 @@ A importação ocorre o processo de puxar os dados do json criptografado com uma
 
 Lembrando que as validações podem variar de acordo com a empresa a implementar se alguns dados serão substituidos ou não.
 
+# Video Tutorial de funcionamento #
+
+[Portabilidade no ecommerce - Wordpress WooCommerce](https://www.youtube.com/watch?v=82ItXDRny-A)
+
 
 

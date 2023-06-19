@@ -1,20 +1,20 @@
-## programa criado por github.com/CelsoDamesJunior e github.com/JGuylherme para a disciplina de Segurança e Auditoria de sistema pelo Professor Nilson Mori. ##
-
 # Plugin para implentação do direito a portabilidade no wordpress com woocommerce.
+
+### programa criado por github.com/CelsoDamesJunior e github.com/JGuylherme para a disciplina de Segurança e Auditoria de sistema pelo Professor Nilson Mori. ###
 
 O intuito deste plugin é mostrar uma padronização e transferência de dados entre sites com o woocommerce.
 Neste com os dados para serem transferidos como Nome,e-mail,telefone,endereço de entrega e fatura, histórico de pedidos (ainda em desenvolvimento).
 
-# Importante
+## Importante ##
 
 Este plugin está em fase inicial, devido a isso alguns processos em grande escala podem apresentar dificuldades e bugs.
 Um detectado é o fato da implementação do e-mail substituir o atual ao puxar o arquivo, desta forma se o seu site utiliza e-mails para login, deve-se atentar a esse detalhe, e por se tratar de um modelo teste, as devidas tratativas de validações dos arquivos ficam a cargo da empresa a implementar.
 
-# Instalação
+## Instalação ##
 
 Para instalação do plugin, os arquios deste repositório deve ser instalado em uma pasta criado com o nome 'portabilidade' dentro pasta “plugins” em wp-content na pasta do seu projeto/site , em seguida ative-o pelo menu de plugins no painel admin com o nome 	Portabilidade no WooCommerce do Wordpress. Com isso adicione em uma página do site em que deseja realizar o processo de portabilidade, para exportar atribua o botão com a url da página com sufixo “. /?data_export=1 ou o sufixo “. /?data_import=1” para import, aconselhamos ambos na mesma pagina para tornar o processo mais dinamico e intuitivo, assim o plugin já está funcionando.
 
-# Funcionamento
+## Funcionamento ##
 
 O Funcionamento do plugin é divido em duas partes principais, a exportação e a importação. 
 A exportação ocorre o processo de adquirir os dados do usuario logado jogando a um arquivo JSON e em seguida é realizada uma criptografia AES-256-cbc com a chave gerada a partir de um codigo hash gerada pelo nome do usuario (Não recomendado para implementações geradas e sim para testes) com isso o arquivo json criptografado é baixado no computador do usuario junto a um pop-up gerado na pagina a senha para descriptografia para o usuario.

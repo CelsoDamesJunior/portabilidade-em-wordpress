@@ -1,8 +1,10 @@
 # Plugin para implentação do direito a portabilidade no wordpress com woocommerce.
 
 
-#### programa criado por [Celso Dames Junior](github.com/CelsoDamesJunior) e [João Guylherme Alves Silva](github.com/JGuylherme) para a disciplina de Segurança e Auditoria de sistema pelo Professor Nilson Mori. ####
+#### Programa criado por [Celso Dames Junior](github.com/CelsoDamesJunior) e [João Guylherme Alves Silva](github.com/JGuylherme) para a disciplina de Segurança e Auditoria de sistema pelo Professor Nilson Mori. ####
 
+
+## Motivação ##
 
 O intuito deste plugin é mostrar uma padronização e transferência de dados entre sites com o woocommerce.
 Neste com os dados para serem transferidos como Nome,e-mail,telefone,endereço de entrega e fatura, histórico de pedidos (ainda em desenvolvimento).
